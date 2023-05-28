@@ -1,0 +1,820 @@
+
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+    <meta charset="utf-8">
+    <title>DarkNetShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="8a53087e2641fbc225627dd49c2356fb">
+
+  	<link href="https://drklt5.es/assets/img/favicon.ico" rel="icon">
+  	
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+    <link href="https://drklt5.es/assets/theme//css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+
+   <script type="text/javascript" src="https://drklt5.es/assets/theme//js/jquery.min.js"></script>
+	<script src="https://drklt5.es/assets/js/easylogins.js"></script>
+	<script src="https://drklt5.es/assets/js/main.js"></script>
+
+	 <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.amaran/0.5.4/amaran.min.css">
+	 <script src="//cdn.jsdelivr.net/jquery.amaran/0.5.4/jquery.amaran.min.js"></script>
+	<script>
+		EasyLogin.options = {
+			ajaxUrl: 'https://drklt5.es/ajax.php',
+			lang: {"error":"Oops! Something went wrong.","connecting":"Connecting to ","changes_saved":"Your settings have been saved.","pass_changed":"Your password has been changed!","no_messages":"You don't have any messages yet.","loading":"<div class=\"loadersmall\"><\/div>","loadding":"<div class=\"spinner-border\" role=\"status\">\r\n  <span class=\"sr-only\">Loading...<\/span>\r\n<\/div>","message_sent":"Your message has been sent to the Webmaster.","comment":" Comment","comments":" Comments"},
+			debug: 1,
+		};
+	</script>
+
+<style>
+
+
+
+.authentication-bg {
+    background-image: url(assets/img/bg-pattern-dark.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(52, 58, 64);
+}
+</style>
+  </head>
+
+  <body class="authentication-bg">
+
+    <div class="layout layout-nav-top">
+      <div class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="https://drklt5.es">
+          <img alt="Pipeline" src="https://drklt5.es/assets/img/user-icon.png" style="width: 60px;"/>
+        </a>
+        <div class="d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-block d-lg-none ml-2">
+            <div class="dropdown">
+              <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img alt="Image" src="https://drklt5.es/assets/img/07.gif" class="avatar" />
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a href="nav-side-user.html" class="dropdown-item">Profile</a>
+                <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
+                <a href="#" class="dropdown-item">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse justify-content-between" id="navbar-collapse">
+          <ul class="navbar-nav" style="font-size: 15px !important;">
+<li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">USA BANK(logins only)</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/huntington-log-log-pass">Huntington Log(log+pass) </a><a class="dropdown-item" href="https://drklt5.es/account/citi-log-log-pass">Citi Log(log+pass) </a><a class="dropdown-item" href="https://drklt5.es/account/pnc-log-log-pass">PNC Log(log+pass) </a><a class="dropdown-item" href="https://drklt5.es/account/bbva-log-log-pass">BBVA Log(log+pass) </a><a class="dropdown-item" href="https://drklt5.es/account/woodforest-log-log-pass">Woodforest log (log+pass) </a></div>
+              </div><li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">USA BANK(full info)</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/huntington-log-full-info">Huntington Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/chase-log-full-info">Chase Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/citi-log-full-info">Citi Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/pnc-log-full-info">PNC Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/woodforest-log-full-info">Woodforest Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/chime-log-full-info">Chime Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/nfcu-log-full-info">NFCU Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/bbva-log-full-info">BBVA Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/bb-t-log-full-info">BB&amp;T Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/boa-log-full-info">BOA Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/suntrust-log-full-info">Suntrust Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/m-t-bank">M&amp;T Bank </a></div>
+              </div><li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">CANADA BANK(full info)</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/scotia-bank-log-full-info">Scotia Bank Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/rbc-log-full-info">RBC Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/td-bank-canada-full-info">TD Bank Canada(full info) </a></div>
+              </div><li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">UK BANK(full info)</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/llyod-bank-log-full-info">Llyod Bank Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/barclays-bank-log-full-info">Barclays Bank Log(full info) </a><a class="dropdown-item" href="https://drklt5.es/account/hsbc-bank-log-full-info">HSBC Bank Log(full info) </a></div>
+              </div><li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">SHOPWITHSCRIP</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/shopwithscrip-log-usa">Shopwithscrip Log (USA) </a><a class="dropdown-item" href="https://drklt5.es/account/fundscrip-log-canada">Fundscrip Log(Canada) </a><a class="dropdown-item" href="https://drklt5.es/account/southwest-log">Southwest Log </a></div>
+              </div><li class="nav-item ">
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">OTHER TOOLS</a>
+                <div class="dropdown-menu"><a class="dropdown-item" href="https://drklt5.es/account/chase-credit-card-info">Chase credit card info </a><a class="dropdown-item" href="https://drklt5.es/account/discover-credit-card-info">Discover credit card info </a><a class="dropdown-item" href="https://drklt5.es/account/usa-checks">USA Checks </a><a class="dropdown-item" href="https://drklt5.es/account/canada-checks">Canada Checks </a><a class="dropdown-item" href="https://drklt5.es/account/company-fullz-log">Company Fullz Log </a><a class="dropdown-item" href="https://drklt5.es/account/dump">DUMPS </a><a class="dropdown-item" href="https://drklt5.es/account/webmail">Webmail </a></div>
+              </div>           
+
+           <li class="nav-item">
+
+              <a class="nav-link" href="https://drklt5.es/ticket">Ticket</a>
+
+            </li>
+
+            <li class="nav-item">
+      					<a class="nav-link" href="https://drklt5.es/purchased">Purchased</a>
+      				</li>
+
+     
+
+
+          </ul>
+          <div class="d-lg-flex align-items-center">
+           
+            <div class="dropdown mx-lg-2">
+              <button class="btn btn-danger btn-block dropdown-toggle" type="button" id="newContentButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Balance: 21.17$
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://drklt5.es/balance">Add Balance</a>
+                <a class="dropdown-item" href="https://drklt5.es/wallets">Deposit history</a>
+              </div>
+            </div>
+            <div class="d-none d-lg-block">
+              <div class="dropdown">
+                <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img alt="Image" src="https://drklt5.es/assets/img/07.gif" class="avatar" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                	<a class="dropdown-item" href="https://drklt5.es/ticket">Ticket</a>
+                  <a href="https://drklt5.es/settings" class="dropdown-item">Settings</a>
+                  <a href="https://drklt5.es/logout" class="dropdown-item">Log Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+
+        <div class="container mt-5">
+        
+     
+
+   
+
+
+<div class="display-4 text-white h5" style="padding-left: 5px;padding-right: 5px;font-size: 20px; margin-left: -15px;">Welcome to DarkNetShop</div>
+
+	<div class="row"> 
+
+     <div class="col-xs-12 col-md-4" style="padding-left: 5px;padding-right: 5px;">
+  <div class="kanban-col" tabindex="0">
+              <div class="card-list">
+                <div class="card-list-header">
+                  <h6>Recently..</h6>
+             
+                </div>
+                <div class="card-list-body" tabindex="0">
+
+                   
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 10 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-26</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 16 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-26</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>PNC Log(full info)</h6>
+                          <p>Added 1 items in category <a class="text-danger" href="account/pnc-log-full-info">PNC Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-26</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 10 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-26</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 16 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-26</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 6 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-05</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 18 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-04-05</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Chase Log(full info)</h6>
+                          <p>Added 8 items in category <a class="text-danger" href="account/chase-log-full-info">Chase Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2023-01-04</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 9 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-12-27</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Webmail</h6>
+                          <p>Added 7 items in category <a class="text-danger" href="account/webmail">Webmail</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-11-30</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Suntrust Log(full info)</h6>
+                          <p>Added 19 items in category <a class="text-danger" href="account/suntrust-log-full-info">Suntrust Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-11-14</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Chase Log(full info)</h6>
+                          <p>Added 12 items in category <a class="text-danger" href="account/chase-log-full-info">Chase Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-11-14</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 9 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-11-09</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 14 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-11-09</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Chase Log(full info)</h6>
+                          <p>Added 4 items in category <a class="text-danger" href="account/chase-log-full-info">Chase Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-10-21</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 9 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-10-07</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>M&amp;T Bank</h6>
+                          <p>Added 11 items in category <a class="text-danger" href="account/m-t-bank">M&amp;T Bank</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-09-20</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 18 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-09-20</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 13 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-09-20</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 12 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-08-09</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>M&amp;T Bank</h6>
+                          <p>Added 13 items in category <a class="text-danger" href="account/m-t-bank">M&amp;T Bank</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-07-21</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Woodforest Log(full info)</h6>
+                          <p>Added 12 items in category <a class="text-danger" href="account/woodforest-log-full-info">Woodforest Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-07-15</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Huntington Log(full info)</h6>
+                          <p>Added 13 items in category <a class="text-danger" href="account/huntington-log-full-info">Huntington Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-07-06</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Citi Log(full info)</h6>
+                          <p>Added 16 items in category <a class="text-danger" href="account/citi-log-full-info">Citi Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-06-02</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>Chase Log(full info)</h6>
+                          <p>Added 13 items in category <a class="text-danger" href="account/chase-log-full-info">Chase Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-06-02</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+			       	 <div class="card card-kanban" tabindex="0">
+
+                    <div class="card-body">
+                     
+                      <div class="card-title">
+                      
+                          <h6>PNC Log(full info)</h6>
+                          <p>Added 11 items in category <a class="text-danger" href="account/pnc-log-full-info">PNC Log(full info)</a></p>
+                        
+                      </div>
+
+
+                      <div class="card-meta d-flex justify-content-between">
+                       
+                        <span class="text-small text-right">2022-06-02</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+               
+              </div>
+            </div>
+
+
+
+       
+        </div>
+
+
+
+        <div class="col-xs-12 col-md-8" style="padding-left: 5px;padding-right: 5px;">
+                  <div class="card">
+  <div class="card-header"><span class="glyphicon glyphicon-calendar" style="color: #000;"></span> Must read... </div>
+</div>
+
+ <div class="card card-note">
+                        <div class="card-header">
+                          <div class="media align-items-center">
+                            <img alt="Ravi Singh" src="https://drklt5.es/assets/img/user-icon.png" class="avatar filter-by-alt" data-toggle="tooltip" data-title="Ravi Singh" data-filter-by="alt">
+                            <div class="media-body">
+                              <h6 class="mb-0 H6-filter-by-text" data-filter-by="text">Добро пожаловать на крупнейший рынок в Даркнет.</h6>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <span data-filter-by="text" class="SPAN-filter-by-text">3 years ago</span>
+                            <div class="ml-1 dropdown card-options">
+                              <button class="btn-options" type="button" id="note-dropdown-button-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                              </button>
+                              <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">Mark As Read</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body DIV-filter-by-text" data-filter-by="text">
+                          <p><p><b>Если вы покупаете инструмент и у него есть проблемы, просто нажмите на вкладку Возврат</b><br></p>
+                          </p>
+
+                        </div>
+                      </div>
+
+
+      </div>
+    </div>
+
+       
+ 
+
+</div>
+
+      </div>
+    </div>
+
+    <!-- Required vendor scripts (Do not remove) -->
+
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/popper.min.js"></script>
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- Autosize - resizes textarea inputs as user types -->
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/autosize.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/flatpickr.min.js"></script>
+ 
+    <!-- Shopify Draggable - drag, drop and sort items on page -->
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/draggable.bundle.legacy.js"></script>
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/swap-animation.js"></script>
+    <!-- Dropzone - drag and drop files onto the page for uploading -->
+
+    <script type="text/javascript" src="https://drklt5.es/assets/theme//js/list.min.js"></script>
+
+  
+    <!-- This appears in the demo only - demonstrates different layouts -->
+    <style type="text/css">
+      .layout-switcher{ position: fixed; bottom: 0; left: 50%; transform: translateX(-50%) translateY(73px); color: #fff; transition: all .35s ease; background: #343a40; border-radius: .25rem .25rem 0 0; padding: .75rem; z-index: 999; }
+            .layout-switcher:not(:hover){ opacity: .95; }
+            .layout-switcher:not(:focus){ cursor: pointer; }
+            .layout-switcher-head{ font-size: .75rem; font-weight: 600; text-transform: uppercase; }
+            .layout-switcher-head i{ font-size: 1.25rem; transition: all .35s ease; }
+            .layout-switcher-body{ transition: all .55s ease; opacity: 0; padding-top: .75rem; transform: translateY(24px); text-align: center; }
+            .layout-switcher:focus{ opacity: 1; outline: none; transform: translateX(-50%) translateY(0); }
+            .layout-switcher:focus .layout-switcher-head i{ transform: rotateZ(180deg); opacity: 0; }
+            .layout-switcher:focus .layout-switcher-body{ opacity: 1; transform: translateY(0); }
+            .layout-switcher-option{ width: 72px; padding: .25rem; border: 2px solid rgba(255,255,255,0); display: inline-block; border-radius: 4px; transition: all .35s ease; }
+            .layout-switcher-option.active{ border-color: #007bff; }
+            .layout-switcher-icon{ width: 100%; border-radius: 4px; }
+            .layout-switcher-body:hover .layout-switcher-option:not(:hover){ opacity: .5; transform: scale(0.9); }
+            @media all and (max-width: 990px){ .layout-switcher{ min-width: 250px; } }
+            @media all and (max-width: 767px){ .layout-switcher{ display: none; } }
+    </style>
+    <div class="layout-switcher" tabindex="1">
+      <div class="layout-switcher-head d-flex justify-content-between">
+        <span>Select Layout</span>
+        <i class="material-icons">arrow_drop_up</i>
+      </div>
+      <div class="layout-switcher-body">
+
+      </div>
+    </div>
+
+  </body>
+
+
+</html>
